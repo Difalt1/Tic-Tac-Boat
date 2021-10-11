@@ -1,0 +1,13 @@
+.square {
+  display: inline;
+  width: 80px;
+  height: 80px;
+}
+.square button {
+  background: black;
+  border: 1px solid red;
+  border-radius: 0px;
+  font-size: xxx-large;
+  font-weight: bolder;
+  color: red;
+}
