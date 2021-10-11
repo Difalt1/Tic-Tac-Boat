@@ -37,7 +37,6 @@ class Game extends react.Component{
   handleSquareClick(index) {
     console.log(`User clicked square ${index}`);
     const squares = this.state.Squares;
-    
     if (squares[index] !== null || this.state.gameWon) {
       return;
     }
